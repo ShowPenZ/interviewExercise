@@ -1,6 +1,6 @@
 module.exports = {
   base: "/interviewExercise/",
-  dest: "dist",
+  dest: ".vuepress/dist",
 
   description: "面试题",
   locales: {
