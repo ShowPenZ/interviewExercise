@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>InterviewExercise</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    
+    <meta name="description" content="Vue-powered Static Site Generator">
+    <link rel="preload" href="/interviewExercise/assets/css/0.styles.edb7c3e9.css" as="style"><link rel="preload" href="/interviewExercise/assets/js/app.a283bd30.js" as="script"><link rel="preload" href="/interviewExercise/assets/js/2.b462522e.js" as="script"><link rel="preload" href="/interviewExercise/assets/js/6.c4a36fea.js" as="script"><link rel="prefetch" href="/interviewExercise/assets/js/10.e3b79d9a.js"><link rel="prefetch" href="/interviewExercise/assets/js/11.01266c08.js"><link rel="prefetch" href="/interviewExercise/assets/js/3.dc7cf43f.js"><link rel="prefetch" href="/interviewExercise/assets/js/4.fca74266.js"><link rel="prefetch" href="/interviewExercise/assets/js/5.aa1973cf.js"><link rel="prefetch" href="/interviewExercise/assets/js/7.af57a6ec.js"><link rel="prefetch" href="/interviewExercise/assets/js/8.366785b6.js"><link rel="prefetch" href="/interviewExercise/assets/js/9.c8e2c0eb.js">
+    <link rel="stylesheet" href="/interviewExercise/assets/css/0.styles.edb7c3e9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/interviewExercise/" class="home-link router-link-active"><!----> <span class="site-name">InterviewExercise</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Languages" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interviewExercise/javascript/DataStructureTransformation/1.html" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/interviewExercise/zh/javascript/DataStructureTransformation/1.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Languages" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interviewExercise/javascript/DataStructureTransformation/1.html" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/interviewExercise/zh/javascript/DataStructureTransformation/1.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Javascript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>DataStructureTransformation</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/interviewExercise/javascript/DataStructureTransformation/1.html" class="active sidebar-link">question 1</a></li></ul></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3>Given an object as</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span> parent<span class="token operator">:</span> <span class="token number">2</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> parent<span class="token operator">:</span> <span class="token keyword">null</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> id<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span> parent<span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><h3>Convert to:</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  id<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  parent<span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+  child<span class="token operator">:</span> <span class="token punctuation">{</span>
+    id<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    parent<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    child<span class="token operator">:</span> <span class="token punctuation">{</span>
+      id<span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+      parent<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h3>Solve the problem as</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> newObj <span class="token operator">=</span> obj
+  <span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> b<span class="token punctuation">.</span>parent <span class="token operator">-</span> a<span class="token punctuation">.</span>parent<span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">acc<span class="token punctuation">,</span> cur</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span>
+    <span class="token comment">// Recursive first time acc is { id: 3, parent: 2 }, cur is {id: 2, parent: 1}</span>
+    <span class="token comment">// so First recursive result is { id: 2, parent: 1,child: { id: 3, parent: 2 }}</span>
+
+    <span class="token comment">// Recursive second time acc is { id: 2, parent: 1,child: { id: 3, parent: 2 }}, cur is { id: 1, parent: null },</span>
+    <span class="token comment">// so Second recursion result is {id: 1, parent: null,child:{ id: 2, parent: 1,child: { id: 3, parent: 2 }}</span>
+    acc <span class="token operator">?</span> <span class="token punctuation">{</span> <span class="token operator">...</span>cur<span class="token punctuation">,</span> child<span class="token operator">:</span> acc <span class="token punctuation">}</span> <span class="token operator">:</span> cur
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/interviewExercise/assets/js/app.a283bd30.js" defer></script><script src="/interviewExercise/assets/js/2.b462522e.js" defer></script><script src="/interviewExercise/assets/js/6.c4a36fea.js" defer></script>
+  </body>
+</html>
