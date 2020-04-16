@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/interviewExercise",
+  base: "/interviewExercise/",
   dest: "dist",
 
   description: "面试题",
