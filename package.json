@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
     "deploy": "bash deploy.sh",
+    "push": "bash push.sh",
     "docs:build": "vuepress build docs"
   },
   "repository": {
