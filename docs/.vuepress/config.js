@@ -37,12 +37,17 @@ module.exports = {
                   title: "DataStructureTransformation",
                   children: [
                     ["javascript/DataStructureTransformation/1", "question 1"],
+                    ["javascript/DataStructureTransformation/2", "question 2"],
                   ],
                 },
                 {
                   title: "eventHandler",
                   children: [
                     ["javascript/eventHandler/1", "1.debounce and throttle"],
+                    [
+                      "javascript/eventHandler/2",
+                      "2.Implement a sleep function",
+                    ],
                   ],
                 },
                 {
@@ -51,6 +56,14 @@ module.exports = {
                     [
                       "javascript/basic/1",
                       "1.What does the following code output",
+                    ],
+                    [
+                      "javascript/basic/2",
+                      "2.Implement (num1).add(num2).minus(num3)",
+                    ],
+                    [
+                      "javascript/basic/3",
+                      "3.The lazyman class is required to achieve the following functions.",
                     ],
                   ],
                 },
@@ -85,15 +98,29 @@ module.exports = {
                   title: "数据结构转换",
                   children: [
                     ["/zh/javascript/DataStructureTransformation/1", "第1题"],
+                    ["/zh/javascript/DataStructureTransformation/2", "第2题"],
                   ],
                 },
                 {
                   title: "事件处理相关",
-                  children: [["/zh/javascript/eventHandler/1", "1.防抖和截流"]],
+                  children: [
+                    ["/zh/javascript/eventHandler/1", "1.防抖和截流"],
+                    ["/zh/javascript/eventHandler/2", "2.实现一个sleep函数"],
+                  ],
                 },
                 {
                   title: "基础类",
-                  children: [["/zh/javascript/basic/1", "1.下面代码输出什么"]],
+                  children: [
+                    ["/zh/javascript/basic/1", "1.下面代码输出什么"],
+                    [
+                      "/zh/javascript/basic/2",
+                      "2.实现 (num1).add(num2).minus(num3)",
+                    ],
+                    [
+                      "/zh/javascript/basic/3",
+                      "3.要求设计 LazyMan 类，实现以下功能。",
+                    ],
+                  ],
                 },
                 {
                   title: "数据处理",
