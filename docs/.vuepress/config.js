@@ -39,6 +39,27 @@ module.exports = {
                     ["javascript/DataStructureTransformation/1", "question 1"],
                   ],
                 },
+                {
+                  title: "eventHandler",
+                  children: [
+                    ["javascript/eventHandler/1", "1.debounce and throttle"],
+                  ],
+                },
+                {
+                  title: "basic",
+                  children: [
+                    [
+                      "javascript/basic/1",
+                      "1.What does the following code output",
+                    ],
+                  ],
+                },
+                {
+                  title: "dataProcessing",
+                  children: [
+                    ["javascript/dataProcessing/1", "1.array flatten"],
+                  ],
+                },
               ],
             },
           ],
@@ -65,6 +86,18 @@ module.exports = {
                   children: [
                     ["/zh/javascript/DataStructureTransformation/1", "第1题"],
                   ],
+                },
+                {
+                  title: "事件处理相关",
+                  children: [["/zh/javascript/eventHandler/1", "1.防抖和截流"]],
+                },
+                {
+                  title: "基础类",
+                  children: [["/zh/javascript/basic/1", "1.下面代码输出什么"]],
+                },
+                {
+                  title: "数据处理",
+                  children: [["/zh/javascript/dataProcessing/1", "1.数组展平"]],
                 },
               ],
             },
