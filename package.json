@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "deploy": "bash deploy.sh",
+    "makeNewDoc": "bash makeNewDoc.sh",
     "push": "bash push.sh",
     "docs:build": "vuepress build docs"
   },
